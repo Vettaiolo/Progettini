@@ -1,0 +1,51 @@
+/* Sfondo e layout generali */
+body {
+    background-color: #f5f5f5;
+    font-family: 'Arial', sans-serif;
+}
+
+h1 {
+    color: #343a40;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Card per il modulo */
+.card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+/* Stile per i pulsanti e le label */
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+    margin-top: 20px;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Stile per le checkbox */
+.form-check-label {
+    font-size: 1.1em;
+    margin-left: 10px;
+}
+
+/* Totale in evidenza */
+#totale {
+    font-size: 2em;
+    color: #28a745;
+    text-align: right;
+    font-weight: bold;
+    margin-top: 10px;
+}
